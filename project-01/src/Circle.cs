@@ -7,7 +7,7 @@ namespace project01 {
             this.radius = radius;
         }
 
-        public float calcAreaa() {
+        public override float calcArea() {
             return (float)(Math.PI * Math.Pow(radius, 2));
         }
 
