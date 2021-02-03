@@ -1,5 +1,5 @@
 namespace project01 {
-    class Rectangle : Shape{
+    class Rectangle : Shape {
         public float side1;
         public float side2;
         public Rectangle(float sideA, float sideB) {
@@ -7,7 +7,7 @@ namespace project01 {
             this.side2 = sideB;
         }
 
-        public float calcArea() {
+        public  override float calcArea() {
             return side1 * side2;
         }
 
