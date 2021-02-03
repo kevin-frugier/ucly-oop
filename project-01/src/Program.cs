@@ -13,7 +13,7 @@ namespace project01 {
                 Console.WriteLine(circle.calcArea());
                 Console.WriteLine(circle.calcPerimeter());
 
-                Shape shape = new Shape();
+                Shape shape = rectangle;
             }
 
             {
