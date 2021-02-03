@@ -1,3 +1,5 @@
+using System;
+
 namespace project01 {
     class Rectangle : Shape {
         public float side1;
@@ -13,6 +15,12 @@ namespace project01 {
 
         public override float calcPerimeter() {
             return 2 * (side1 + side2);
+        }
+
+        public override void displayInfo() {
+            Console.WriteLine($"Side1: {side1}");
+            Console.WriteLine($"Side2: {side2}");
+            base.displayInfo();
         }
     }
 }

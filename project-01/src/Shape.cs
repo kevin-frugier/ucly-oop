@@ -5,7 +5,7 @@ namespace project01 {
         public abstract float calcArea();
         public abstract float calcPerimeter();
 
-        public void displayInfo() {
+        public virtual void displayInfo() {
             Console.WriteLine($"Area: {calcArea()}");
             Console.WriteLine($"Perimeter: {calcPerimeter()}");
         }
