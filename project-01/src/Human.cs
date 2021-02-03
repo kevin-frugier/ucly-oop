@@ -30,5 +30,11 @@ namespace project01 {
             this.birth = birth;
         }
 
+        public Human(string firstName, string lastName, string birth) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.birth = DateTime.Parse(birth);
+        }
+
     }
 }

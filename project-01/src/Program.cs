@@ -20,16 +20,29 @@ namespace project01 {
 
     class Program {
         static void Main(string[] args) {
-            Rectangle rect1 = new Rectangle(4, 3);
-            Console.WriteLine(rect1.calcArea());
-            Console.WriteLine(rect1.calcPerimeter());
+            {
+                Rectangle rectangle = new Rectangle(4, 3);
+                Console.WriteLine(rectangle.calcArea());
+                Console.WriteLine(rectangle.calcPerimeter());
+            }
 
-            Human bob = new Human("Bob", "Johnson", DateTime.Parse("1983-12-05T21:55:00+1"));
-            Console.WriteLine(bob.firstName);
-            Console.WriteLine(bob.lastName);
-            Console.WriteLine(bob.name);
-            Console.WriteLine(bob.birth);
-            Console.WriteLine(bob.age);
+            {
+                Human bob = new Human("Bob", "Johnson", DateTime.Parse("1983-12-05T21:55:00+1"));
+                Console.WriteLine(bob.firstName);
+                Console.WriteLine(bob.lastName);
+                Console.WriteLine(bob.name);
+                Console.WriteLine(bob.birth);
+                Console.WriteLine(bob.age);
+            }
+
+            {
+                Human bob = new Human("Bob", "Johnson", "1983-12-05T21:55:00+1");
+                Console.WriteLine(bob.firstName);
+                Console.WriteLine(bob.lastName);
+                Console.WriteLine(bob.name);
+                Console.WriteLine(bob.birth);
+                Console.WriteLine(bob.age);
+            }
         }
     }
 }
