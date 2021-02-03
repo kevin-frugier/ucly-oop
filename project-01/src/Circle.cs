@@ -11,7 +11,7 @@ namespace project01 {
             return (float)(Math.PI * Math.Pow(radius, 2));
         }
 
-        public float calcPerimeter() {
+        public override float calcPerimeter() {
             return (float)(2 * Math.PI * radius);
         }
     }

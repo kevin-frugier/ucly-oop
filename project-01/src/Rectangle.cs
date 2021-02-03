@@ -7,11 +7,11 @@ namespace project01 {
             this.side2 = sideB;
         }
 
-        public  override float calcArea() {
+        public override float calcArea() {
             return side1 * side2;
         }
 
-        public float calcPerimeter() {
+        public override float calcPerimeter() {
             return 2 * (side1 + side2);
         }
     }
