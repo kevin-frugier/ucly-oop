@@ -6,12 +6,10 @@ namespace project01 {
         static void Main(string[] args) {
             {
                 Rectangle rectangle = new Rectangle(4, 3);
-                Console.WriteLine(rectangle.calcArea());
-                Console.WriteLine(rectangle.calcPerimeter());
+                rectangle.displayInfo();
 
                 Circle circle = new Circle(5);
-                Console.WriteLine(circle.calcArea());
-                Console.WriteLine(circle.calcPerimeter());
+                circle.displayInfo();
 
                 Shape shape = rectangle;
             }
