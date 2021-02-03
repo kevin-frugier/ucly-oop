@@ -5,13 +5,10 @@ namespace project01 {
     class Program {
         static void Main(string[] args) {
             {
-                Rectangle rectangle = new Rectangle(4, 3);
-                rectangle.displayInfo();
-
-                Circle circle = new Circle(5);
-                circle.displayInfo();
-
-                Shape shape = rectangle;
+                Shape shape = new Rectangle(4, 3);
+                shape.displayInfo();
+                shape = new Circle(5);
+                shape.displayInfo();
             }
 
             {
