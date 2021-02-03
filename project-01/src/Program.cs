@@ -8,6 +8,10 @@ namespace project01 {
                 Rectangle rectangle = new Rectangle(4, 3);
                 Console.WriteLine(rectangle.calcArea());
                 Console.WriteLine(rectangle.calcPerimeter());
+
+                Circle circle = new Circle(5);
+                Console.WriteLine(circle.calcArea());
+                Console.WriteLine(circle.calcPerimeter());
             }
 
             {
