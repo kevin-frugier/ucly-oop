@@ -12,6 +12,8 @@ namespace project01 {
                 Circle circle = new Circle(5);
                 Console.WriteLine(circle.calcArea());
                 Console.WriteLine(circle.calcPerimeter());
+
+                Shape shape = new Shape();
             }
 
             {

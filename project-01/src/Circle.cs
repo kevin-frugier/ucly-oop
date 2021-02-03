@@ -1,7 +1,7 @@
 using System;
 
 namespace project01 {
-    class Circle {
+    class Circle : Shape {
         public float radius;
         public Circle(float radius) {
             this.radius = radius;

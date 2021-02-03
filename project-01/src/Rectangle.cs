@@ -1,5 +1,5 @@
 namespace project01 {
-    class Rectangle {
+    class Rectangle : Shape{
         public float side1;
         public float side2;
         public Rectangle(float sideA, float sideB) {
